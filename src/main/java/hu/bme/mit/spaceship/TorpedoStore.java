@@ -35,12 +35,7 @@ public class TorpedoStore {
       throw new IllegalArgumentException("numberOfTorpedos");
     }
 
-    boolean success = false;
-    
-
-    //Hello.
-
-
+    boolean success = false;   
 
     // simulate random overheating of the launcher bay which prevents firing
   

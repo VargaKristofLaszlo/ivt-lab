@@ -1,0 +1,9 @@
+If firingmode is single and the primary was fired last and the secondary store is not empty then it should fire.
+If firingmode is single and the primary was fired last and the secondary store is empty but the first is not then it should fire.
+If firingmode is single and the primary was fired last but the secondary and primary stores are empty then it should not fire.
+If firingmode is single and primary was not fired last and primary is empty then it should fire.
+If firingmode is single and primary was not fired last but it's empty but the secondary is not then it should fire.
+If firingmode is single and primary was not fired last but both primary and secondary are empty then it should not fire.
+
+If firingmode is all but the primary store is empty then it should not fire.
+If firingmode is all but the secondary store is empty then it should not fire.
